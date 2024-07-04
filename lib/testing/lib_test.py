@@ -18,7 +18,7 @@ class TestGreetProgrammer:
         sys.stdout = sys.__stdout__
         assert(captured_out.getvalue() == "Hello, programmer!\n")
 
-class TestGreet:
+class Test_Greet:
     '''function greet()'''
 
     def test_greet_programmer(self):
